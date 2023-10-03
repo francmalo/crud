@@ -1,4 +1,4 @@
-@extends('products.layout')
+@extends('layouts.app')
 
 @section('content')
     <div class="row">
@@ -44,6 +44,7 @@
 
     </table>
     {{ $products->links() }}
+    {{ __('You are logged in!') }}
 
 
 @endsection  
